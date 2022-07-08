@@ -40,7 +40,7 @@ public:
         
         for(int i = 0; i < k; i++)
         {
-            cout << "row: " << soldier_vec[i].first << "  soldiers:" << soldier_vec[i].second << endl;
+            //cout << "row: " << soldier_vec[i].first << "  soldiers:" << soldier_vec[i].second << endl;
             rv.push_back(soldier_vec[i].first);
         }
         
