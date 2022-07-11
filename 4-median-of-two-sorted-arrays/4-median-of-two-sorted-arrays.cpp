@@ -30,7 +30,7 @@ public:
                 middle_val1 = nums2[nums2_idx++];
             }
             
-            cout << middle_val1 << "  " << middle_val2 << endl;
+            //cout << middle_val1 << "  " << middle_val2 << endl;
         }
         
         
