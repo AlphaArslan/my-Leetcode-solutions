@@ -35,10 +35,12 @@ public:
         }
         
         // recompose the reversed number
-        int rev_x = 0;
-        for(int i = 0; i < digits; i++)
+        int rev_x = digits_vec[digits - 1];
+        int mul = 1;
+        for(int i = digits - 2; i >= 0; i--)
         {
-            rev_x = rev_x * 10 + digits_vec[i];
+            mul *= 10;
+            rev_x += digits_vec[i] * mul;
         }
 
         return rev_x * sign ;
