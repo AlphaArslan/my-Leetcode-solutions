@@ -42,7 +42,7 @@ public:
         // apply the sign
         number *= sign;
         
-        // check for limit exceeding numbers
+        // check for off-limit numbers
         if(number > INT_MAX)
         {
             return INT_MAX;
